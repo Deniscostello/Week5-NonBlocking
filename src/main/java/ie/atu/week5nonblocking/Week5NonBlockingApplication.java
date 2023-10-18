@@ -13,9 +13,6 @@ public class Week5NonBlockingApplication {
     public static void main(String[] args) {
         SpringApplication.run(Week5NonBlockingApplication.class, args);
     }
-    @Bean
-    public RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
+
 
 }
